@@ -1,0 +1,4 @@
+name: CoinsAPI
+author: Luca
+version: 1.0
+main: ch.luca.hydroslide.coinsapi.CoinsAPI
