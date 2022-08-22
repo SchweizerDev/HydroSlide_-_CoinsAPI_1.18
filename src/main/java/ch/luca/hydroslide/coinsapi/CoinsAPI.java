@@ -23,7 +23,7 @@ public class CoinsAPI extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        this.coinsMySQL = new MySQL("localhost", "bungeecord", "root", "wqfj9X3v9cPMUrfS", 3306);
+        this.coinsMySQL = new MySQL("localhost", "bungeecord", "root", "password", 3306);
         this.coinsRepository = new CoinsRepository(this.coinsMySQL);
         Bukkit.getConsoleSender().sendMessage(CoinsAPI.getPrefix() + "CoinsAPI wurde §aaktiviert§7!");
         Bukkit.getConsoleSender().sendMessage(CoinsAPI.getPrefix() + "Author§8: §eLuca §7| §7Version§8: §a1.0");
